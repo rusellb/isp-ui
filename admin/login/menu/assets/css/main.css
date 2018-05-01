@@ -322,6 +322,7 @@ ul li {
   min-height: 100vh;
   position: relative;
   text-align: center;
+  background: url(../images/backgrounds/header.jpg) no-repeat center center/cover;
   display: table;
 }
 .site-header::before {
@@ -331,7 +332,7 @@ ul li {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #6E6568;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .site-header .intro {
   color: #fff;
@@ -602,14 +603,4 @@ ul li {
 }
 .site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
   opacity: 0.8;
-}
-
-table {
-  text-align: left;
-  color: white;
-  padding: 50px;
-}
-
-td, th, tr {
-  padding: 10px;
 }
